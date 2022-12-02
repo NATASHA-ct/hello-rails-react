@@ -1,34 +1,11 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
+<a name="readme-top">HELLO-REACT-RAILS</a>
 
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
+ 
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -57,17 +34,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 HELLO REACT RAILS <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> A simple web api application that has a front-end built using React JS and uses a web service from a ruby on rails driven backend
 
-**[your_project__name]** is a...
+**Hello react rails** is a simple web app to test working with rails and react.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> These are technologies that I used.
 
 <details>
   <summary>Client</summary>
@@ -96,17 +73,15 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **This app has API end points**
+- **It fetches from the API and renders the data**
+- **It renders random greetings on refreshing and navigating to the './     message**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -118,113 +93,71 @@ After you're finished please remove all the comments and instructions!
 
 > Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+To get a local clone the repository https://github.com/NATASHA-ct/fullstack-rails-react.git
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Ruby
+- Postgresql
+- Node.js
+- Yarn
+- Rails
 
 ### Setup
 
 Clone this repository to your desired folder:
+$ git clone
 
-<!--
-Example commands:
+ https://github.com/NATASHA-ct/fullstack-rails-react.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+$ cd hello_rails_react
 
 ### Install
 
 Install this project with:
+ `$ bundle install `
 
-<!--
-Example command:
+ To get all the gems required for the project
 
-```sh
-  cd my-project
-  gem install
-```
---->
+Then, run
+
+  `$ npm install` 
+To install packages such as style linters
+
+To check linters locally, use
+
+ `$ rubocop`
+ `$ npx stylelint "**/*.{css,scss}"`
+Once you have the project correctly set up, run
+
+ `$ bin/rails db:setup`
+Usage
+To run the project, execute the following command:
+
+`./bin/dev or rails s`
+
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+`./bin/dev or rails s`
 
-```sh
-  rails server
-```
---->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,9 +175,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+ Acknowledgement to all used sources  e.g stackoverflow for debugging
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,9 +183,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> Acknowledgement to all used sources  e.g stackoverflow for debuggin
 
-I would like to thank...
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -264,13 +195,19 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
 
-  - [Answer_1]
+#### [Question_1] Do I need to have a program to manage the database. 
 
-- **[Question_2]**
+##### [Answer_1] Yes you need postgesql or sqllite ,check installation online.
 
-  - [Answer_2]
+#### [Question_2] Can I access the owner database .
+
+##### [Answer_2]No because its on their local database .
+
+##### [Question_3] Does this app need 2 repositories.
+
+##### [Answer_3] [No, this is a one repository frontend and backend app]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
